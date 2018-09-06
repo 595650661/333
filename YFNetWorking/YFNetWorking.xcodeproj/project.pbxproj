@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21D93B2482FC04DFB6CCC6AD /* Pods_YFNetWorking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6026E8765EEF18CF4E9860C8 /* Pods_YFNetWorking.framework */; };
+		EC2D0F6B21369F9200E1C84C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2D0F6A21369F9200E1C84C /* AppDelegate.swift */; };
+		EC2D0F6D21369F9200E1C84C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2D0F6C21369F9200E1C84C /* ViewController.swift */; };
+		EC2D0F7021369F9200E1C84C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC2D0F6E21369F9200E1C84C /* Main.storyboard */; };
+		EC2D0F7221369F9300E1C84C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC2D0F7121369F9300E1C84C /* Assets.xcassets */; };
+		EC2D0F7521369F9300E1C84C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC2D0F7321369F9300E1C84C /* LaunchScreen.storyboard */; };
+		EC5F84882136A19E009BA1EC /* YFNetWorking.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5F84872136A19E009BA1EC /* YFNetWorking.swift */; };
+		EC5F848A2136A4E8009BA1EC /* YFUrlSessionTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5F84892136A4E8009BA1EC /* YFUrlSessionTask.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6026E8765EEF18CF4E9860C8 /* Pods_YFNetWorking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YFNetWorking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4F229FA51E1C22423D0389A /* Pods-YFNetWorking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YFNetWorking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YFNetWorking/Pods-YFNetWorking.debug.xcconfig"; sourceTree = "<group>"; };
+		E46268D040E553CDBBFC7487 /* Pods-YFNetWorking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YFNetWorking.release.xcconfig"; path = "Pods/Target Support Files/Pods-YFNetWorking/Pods-YFNetWorking.release.xcconfig"; sourceTree = "<group>"; };
+		EC2D0F6721369F9200E1C84C /* YFNetWorking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YFNetWorking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2D0F6A21369F9200E1C84C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC2D0F6C21369F9200E1C84C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC2D0F6F21369F9200E1C84C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC2D0F7121369F9300E1C84C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC2D0F7421369F9300E1C84C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC2D0F7621369F9300E1C84C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC5F84872136A19E009BA1EC /* YFNetWorking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YFNetWorking.swift; sourceTree = "<group>"; };
+		EC5F84892136A4E8009BA1EC /* YFUrlSessionTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YFUrlSessionTask.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC2D0F6421369F9200E1C84C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21D93B2482FC04DFB6CCC6AD /* Pods_YFNetWorking.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A2204C52110D3D7C94DF0DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6026E8765EEF18CF4E9860C8 /* Pods_YFNetWorking.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CECF931A1C2A954F28AACBF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4F229FA51E1C22423D0389A /* Pods-YFNetWorking.debug.xcconfig */,
+				E46268D040E553CDBBFC7487 /* Pods-YFNetWorking.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EC2D0F5E21369F9200E1C84C = {
+			isa = PBXGroup;
+			children = (
+				EC2D0F6921369F9200E1C84C /* YFNetWorking */,
+				EC2D0F6821369F9200E1C84C /* Products */,
+				8CECF931A1C2A954F28AACBF /* Pods */,
+				0A2204C52110D3D7C94DF0DD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EC2D0F6821369F9200E1C84C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC2D0F6721369F9200E1C84C /* YFNetWorking.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC2D0F6921369F9200E1C84C /* YFNetWorking */ = {
+			isa = PBXGroup;
+			children = (
+				EC2D0F6A21369F9200E1C84C /* AppDelegate.swift */,
+				EC2D0F6C21369F9200E1C84C /* ViewController.swift */,
+				EC5F84872136A19E009BA1EC /* YFNetWorking.swift */,
+				EC5F84892136A4E8009BA1EC /* YFUrlSessionTask.swift */,
+				EC2D0F6E21369F9200E1C84C /* Main.storyboard */,
+				EC2D0F7121369F9300E1C84C /* Assets.xcassets */,
+				EC2D0F7321369F9300E1C84C /* LaunchScreen.storyboard */,
+				EC2D0F7621369F9300E1C84C /* Info.plist */,
+			);
+			path = YFNetWorking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC2D0F6621369F9200E1C84C /* YFNetWorking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC2D0F7921369F9300E1C84C /* Build configuration list for PBXNativeTarget "YFNetWorking" */;
+			buildPhases = (
+				2EE25947B4007F884A2125B5 /* [CP] Check Pods Manifest.lock */,
+				EC2D0F6321369F9200E1C84C /* Sources */,
+				EC2D0F6421369F9200E1C84C /* Frameworks */,
+				EC2D0F6521369F9200E1C84C /* Resources */,
+				89D05157DB735282335E9291 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YFNetWorking;
+			productName = YFNetWorking;
+			productReference = EC2D0F6721369F9200E1C84C /* YFNetWorking.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC2D0F5F21369F9200E1C84C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "程云飞";
+				TargetAttributes = {
+					EC2D0F6621369F9200E1C84C = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = EC2D0F6221369F9200E1C84C /* Build configuration list for PBXProject "YFNetWorking" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC2D0F5E21369F9200E1C84C;
+			productRefGroup = EC2D0F6821369F9200E1C84C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC2D0F6621369F9200E1C84C /* YFNetWorking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC2D0F6521369F9200E1C84C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2D0F7521369F9300E1C84C /* LaunchScreen.storyboard in Resources */,
+				EC2D0F7221369F9300E1C84C /* Assets.xcassets in Resources */,
+				EC2D0F7021369F9200E1C84C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2EE25947B4007F884A2125B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YFNetWorking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89D05157DB735282335E9291 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YFNetWorking/Pods-YFNetWorking-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YFNetWorking/Pods-YFNetWorking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC2D0F6321369F9200E1C84C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2D0F6D21369F9200E1C84C /* ViewController.swift in Sources */,
+				EC5F84882136A19E009BA1EC /* YFNetWorking.swift in Sources */,
+				EC5F848A2136A4E8009BA1EC /* YFUrlSessionTask.swift in Sources */,
+				EC2D0F6B21369F9200E1C84C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC2D0F6E21369F9200E1C84C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC2D0F6F21369F9200E1C84C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC2D0F7321369F9300E1C84C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC2D0F7421369F9300E1C84C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC2D0F7721369F9300E1C84C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC2D0F7821369F9300E1C84C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC2D0F7A21369F9300E1C84C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4F229FA51E1C22423D0389A /* Pods-YFNetWorking.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YFNetWorking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cheng.YFNetWorking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC2D0F7B21369F9300E1C84C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E46268D040E553CDBBFC7487 /* Pods-YFNetWorking.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YFNetWorking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cheng.YFNetWorking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC2D0F6221369F9200E1C84C /* Build configuration list for PBXProject "YFNetWorking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2D0F7721369F9300E1C84C /* Debug */,
+				EC2D0F7821369F9300E1C84C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC2D0F7921369F9300E1C84C /* Build configuration list for PBXNativeTarget "YFNetWorking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2D0F7A21369F9300E1C84C /* Debug */,
+				EC2D0F7B21369F9300E1C84C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC2D0F5F21369F9200E1C84C /* Project object */;
+}
