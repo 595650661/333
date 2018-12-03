@@ -14,7 +14,10 @@
 		EC2D0F7221369F9300E1C84C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC2D0F7121369F9300E1C84C /* Assets.xcassets */; };
 		EC2D0F7521369F9300E1C84C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC2D0F7321369F9300E1C84C /* LaunchScreen.storyboard */; };
 		EC5F84882136A19E009BA1EC /* YFNetWorking.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5F84872136A19E009BA1EC /* YFNetWorking.swift */; };
-		EC5F848A2136A4E8009BA1EC /* YFUrlSessionTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5F84892136A4E8009BA1EC /* YFUrlSessionTask.swift */; };
+		EC5F84AD214681DD009BA1EC /* YFCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5F84AC214681DD009BA1EC /* YFCacheManager.swift */; };
+		EC5F84AF214683EF009BA1EC /* YFMemoryCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5F84AE214683EF009BA1EC /* YFMemoryCache.swift */; };
+		EC5F84B1214685CC009BA1EC /* YFDiskCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5F84B0214685CC009BA1EC /* YFDiskCache.swift */; };
+		EC5F84B321468750009BA1EC /* YFLRUManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5F84B221468750009BA1EC /* YFLRUManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +32,10 @@
 		EC2D0F7421369F9300E1C84C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC2D0F7621369F9300E1C84C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC5F84872136A19E009BA1EC /* YFNetWorking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YFNetWorking.swift; sourceTree = "<group>"; };
-		EC5F84892136A4E8009BA1EC /* YFUrlSessionTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YFUrlSessionTask.swift; sourceTree = "<group>"; };
+		EC5F84AC214681DD009BA1EC /* YFCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YFCacheManager.swift; sourceTree = "<group>"; };
+		EC5F84AE214683EF009BA1EC /* YFMemoryCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YFMemoryCache.swift; sourceTree = "<group>"; };
+		EC5F84B0214685CC009BA1EC /* YFDiskCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YFDiskCache.swift; sourceTree = "<group>"; };
+		EC5F84B221468750009BA1EC /* YFLRUManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YFLRUManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +91,10 @@
 				EC2D0F6A21369F9200E1C84C /* AppDelegate.swift */,
 				EC2D0F6C21369F9200E1C84C /* ViewController.swift */,
 				EC5F84872136A19E009BA1EC /* YFNetWorking.swift */,
-				EC5F84892136A4E8009BA1EC /* YFUrlSessionTask.swift */,
+				EC5F84AC214681DD009BA1EC /* YFCacheManager.swift */,
+				EC5F84AE214683EF009BA1EC /* YFMemoryCache.swift */,
+				EC5F84B0214685CC009BA1EC /* YFDiskCache.swift */,
+				EC5F84B221468750009BA1EC /* YFLRUManager.swift */,
 				EC2D0F6E21369F9200E1C84C /* Main.storyboard */,
 				EC2D0F7121369F9300E1C84C /* Assets.xcassets */,
 				EC2D0F7321369F9300E1C84C /* LaunchScreen.storyboard */,
@@ -210,10 +219,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC5F84B321468750009BA1EC /* YFLRUManager.swift in Sources */,
 				EC2D0F6D21369F9200E1C84C /* ViewController.swift in Sources */,
+				EC5F84AD214681DD009BA1EC /* YFCacheManager.swift in Sources */,
 				EC5F84882136A19E009BA1EC /* YFNetWorking.swift in Sources */,
-				EC5F848A2136A4E8009BA1EC /* YFUrlSessionTask.swift in Sources */,
 				EC2D0F6B21369F9200E1C84C /* AppDelegate.swift in Sources */,
+				EC5F84AF214683EF009BA1EC /* YFMemoryCache.swift in Sources */,
+				EC5F84B1214685CC009BA1EC /* YFDiskCache.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

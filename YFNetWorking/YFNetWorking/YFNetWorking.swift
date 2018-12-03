@@ -9,7 +9,7 @@
 import UIKit
 import Alamofire
 
-//typealias YFUrlSessionTask =
+typealias YFUrlSessionTask = URLSessionDataTask
 
 typealias YFDownloadProgress = ((__int64_t, __int64_t) -> ())
 
@@ -43,7 +43,7 @@ class YFNetWorking: NSObject {
         
         if NetworkReachabilityManager.init()?.isReachable == false {
             if failBlock != nil {
-                failBlock(YF_ERROR)
+                failBlock!(YF_ERROR)
             }
         }
     }
