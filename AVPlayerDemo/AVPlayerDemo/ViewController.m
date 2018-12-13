@@ -26,7 +26,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self createUI];
-    //33333333
+    
     //进行初始创建
     NSURL*url=[NSURL URLWithString:@"https://cdn-ekwing-oss-new.ekwing.com/acpf/data/upload/base/2017/08/22/599bfce5eb417.mp4"];
     //创建item
